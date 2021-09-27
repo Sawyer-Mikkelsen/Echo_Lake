@@ -1,0 +1,7 @@
+git config --gloabal user.name "Sawyer Mikkelsen"
+git config --global user.email samikkel@ualberta.ca
+cd ~/
+mkdir Moodboard-project-two
+cd Moodboard-project-two
+git init
+
