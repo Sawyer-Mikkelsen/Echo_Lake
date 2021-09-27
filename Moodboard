@@ -4,4 +4,12 @@ cd ~/
 mkdir Moodboard-project-two
 cd Moodboard-project-two
 git init
-
+git commit -m "Moodboard repository creation"
+echo "Moodboard" >my-moodboard-file.txt
+git add my-moodboard-file.txt
+git commit -m "made the moodboard file; it should say moodboard"
+git status
+git log
+git add --all
+git commit -m "moodboard txt file inside repo"
+git push origin main
